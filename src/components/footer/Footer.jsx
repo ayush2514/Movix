@@ -34,9 +34,11 @@ const Footer = () => {
           <span className="icon">
             <FaLinkedin />
           </span>
-          <p className="love">Made with ❤️ by Ayush</p>
+          
         </div>
-       
+        <div>
+        <p className="love"><b>Made with ❤️ by Ayush</b></p>
+        </div>
       </ContentWrapper>
     </footer>
   );
