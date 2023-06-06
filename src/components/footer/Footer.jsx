@@ -13,20 +13,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <ContentWrapper>
-        <ul className="menuItems">
-          <li className="menuItem">Terms Of Use</li>
-          <li className="menuItem">Privacy-Policy</li>
-          <li className="menuItem">About</li>
-          <li className="menuItem">Blog</li>
-          <li className="menuItem">FAQ</li>
-        </ul>
         <div className="infoText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          Discover the world of cinema with Movix! Browse our vast collection of
+          movies, from timeless classics to the latest blockbusters. Experience
+          seamless searching and filtering to find your perfect film. Join our
+          passionate community and share your thoughts and
+          recommendations.
+       
         </div>
         <div className="socialIcons">
           <span className="icon">
@@ -41,7 +34,9 @@ const Footer = () => {
           <span className="icon">
             <FaLinkedin />
           </span>
+          <p className="love">Made with ❤️ by Ayush</p>
         </div>
+       
       </ContentWrapper>
     </footer>
   );
